@@ -1,0 +1,65 @@
+html {
+    width: 460px;
+    margin: 0 auto;
+    border-style: double;
+}
+
+h1{
+    width: 444px;
+    margin: auto;
+    background-color: rgb(184, 81, 81);
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: lightgray;
+    color: #000B49;
+    width: 84px;
+    height: 80px;
+    font-size: 50px;
+}
+
+
+button:hover {
+    background-color: #000B49;
+    color: white;
+}
+
+div {
+    height: 550px;
+    max-width: 444px;
+    margin: auto;
+}
+
+li {
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+#thescreen {
+    font-size: 50px;
+    text-align: right;  
+    width: 435px;
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.operation {
+    background-color: rgb(240, 174, 174);
+}
+
+.other{
+    background-color: lightskyblue;
+}
+
+.enter{
+    background-color: rgb(242, 102, 242);
+}
